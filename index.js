@@ -2,8 +2,7 @@
 
 'use strict';
 
-var path = require('path');
-var index = require(path.resolve(__dirname, 'src/', 'index.json'));
+var index = require('./src/index.json');
 
 module.exports = {
   numeric: function (input) { return map[input] && map[input].numeric; },
